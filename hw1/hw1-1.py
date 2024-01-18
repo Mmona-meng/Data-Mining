@@ -16,6 +16,6 @@ def cardinality_items(filename):
     return len(unique_items)
 
 
-file_path = 'week1/basket_data.csv'
+file_path = '/Users/xmeng/Documents/NEUsp24/CS6620_Data_Mining/week1/basket_data.csv'
 cardinality = cardinality_items(file_path)
 print(cardinality)
